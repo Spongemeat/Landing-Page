@@ -61,7 +61,7 @@ a {
     width: 60%;
     height: 80%;
     display: flex; 
-    
+    justify-content: space-between;
 }
 
 .hero-text-container {
@@ -86,14 +86,9 @@ button {
     flex-shrink: 0;
 }
 
-.img-container {
-    height:100%;
-    width: 100%;
-}
-
 .hero-img{
-    width: 500px;
-    height:auto;
+    width: 30%;
+    height:auto; 
 }
 
 .content-container {
