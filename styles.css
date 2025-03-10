@@ -22,25 +22,27 @@ body {
 }
 
 .header{
+    border: 1px solid #fff;  /* For debugging */
     color: #F9FAF8;
-    font-size: 24px;    
+    font-size: 24px;  
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-around;
 }
 
-.hero {
+.header-text,
+.hero-text {
     color: #E5E7EB;
     font-size: 18px;
     gap: 15px;
-    display: flex;
-    flex-direction: row;
 }
 
-ul {
+/*.header-text {
+
+}*/
+
+/*ul {
     list-style: none;
-}
+}*/
 
 a {
     text-decoration: none;
@@ -53,11 +55,15 @@ a {
     font-weight: 900px;
 }
 
-.hero-container{
-    display: flex;
-    align-self: center;
-    flex-direction: column;
+/*.hero-container {
+    display: flex;   
 }
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}*/
 
 button {
     color: #F9FAF8;
