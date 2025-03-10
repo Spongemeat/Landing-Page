@@ -22,23 +22,24 @@ body {
 }
 
 .header{
-    border: 1px solid #fff;  /* For debugging */
+    /* border: 1px solid #fff;   For debugging */
     color: #F9FAF8;
     font-size: 24px;  
     display: flex;
     justify-content: space-around;
+    margin-top: 15px;
 }
 
 .header-text,
 .hero-text {
     color: #E5E7EB;
     font-size: 18px;
-    gap: 15px;
 }
 
-/*.header-text {
-
-}*/
+.header-text {
+    display: flex;
+    gap: 25px;
+}
 
 /*ul {
     list-style: none;
@@ -55,11 +56,11 @@ a {
     font-weight: 900px;
 }
 
-/*.hero-container {
+.hero-container {
     display: flex;   
 }
 
-.hero-text-container {
+/*.hero-text-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
