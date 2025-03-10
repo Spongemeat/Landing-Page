@@ -19,28 +19,34 @@ body {
 
 .head-container {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-links {
+    border: 1px solid #fff;
+    width: 60%;
+    display: flex;  
+    justify-content: space-between;
 }
 
 .header{
-    /* border: 1px solid #fff;   For debugging */
     color: #F9FAF8;
     font-size: 24px;  
-    display: flex;
-    justify-content: space-around;
     margin-top: 15px;
 }
 
-.header-text,
+.header.links,
 .hero-text {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.header-text {
+.link-container {
     display: flex;
-    gap: 25px;
+    justify-content: flex-end;
 }
-
 /*ul {
     list-style: none;
 }*/
@@ -57,7 +63,9 @@ a {
 }
 
 .hero-container {
-    display: flex;   
+    /*border: 1px solid #fff;*/
+    display: flex; 
+    justify-content: center;
 }
 
 /*.hero-text-container {
