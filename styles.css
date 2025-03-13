@@ -98,6 +98,7 @@ button {
     border-radius: 8px;
     width: 100px;
     flex-shrink: 0;
+    font-weight: bolder;
 }
 
 .hero-img{
@@ -164,11 +165,9 @@ button {
 }
 
 .quote.ref{
-    font-weight: bold;
     font-size: 24px;
     align-self: flex-end;
     margin-top: 10px;
-
 }
 
 .action-box {
@@ -182,6 +181,7 @@ button {
     justify-content: space-around;
     align-items: center;
     margin: 150px 0px;
+    flex-wrap: wrap;
 }
 
 .action-text-wrapper {
@@ -190,7 +190,8 @@ button {
 }
 
 .action-button {
-    border: 2px solid #E5E7EB
+    border: 2px solid #E5E7EB;
+    margin: 50px 0px;
 }
 
 .action-title {
@@ -198,7 +199,6 @@ button {
     font-size: 24px;
     margin-bottom: 0px;
     margin-top: 50px;
-
 }
 
 .action-text {
@@ -209,6 +209,12 @@ button {
 .foot-container {
     background-color: #1f2937;
     padding: 15px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 
 
