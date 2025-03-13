@@ -5,13 +5,12 @@
 
 body {
     margin: 0px;
-    height: 100vh;
     display: flex;
-    
+    flex-direction: row;
 }
 
 .sidebar {
-    padding: 150px;
+    width: 15%;
     background-color: #0c0c0e;
     display: flex;
 }
@@ -140,6 +139,7 @@ button {
     font-size: 18px;
     color: #1F2937;
     Text-align: center;
+    margin-bottom: 80px;
 }
 
 .img-box {
@@ -154,11 +154,26 @@ button {
     font-weight: 900;
 }
 
-.quote {
+.quote-container{
     background-color: #E5E7EB;
+    padding: 60px 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin: 0px;
+    text-wrap: balance;
+}
+
+.quote.ref{
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .action-box {
