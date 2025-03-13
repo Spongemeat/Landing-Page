@@ -162,18 +162,21 @@ button {
     flex-direction: column;
 }
 
+.quote-wrapper {
+    
+}
+
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    margin: 0px;
     text-wrap: balance;
 }
 
 .quote.ref{
-    margin-left: auto;
     font-weight: bold;
     font-size: 24px;
+    margin-left: auto;
 }
 
 .action-box {
